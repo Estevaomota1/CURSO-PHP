@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="_css/estilo.css"/>
+  <meta charset="UTF-8"/>
+  <title>ESTEVAO</title>
+</head>
+<body>
+<div>
+    <?php
+      $a = 10;
+      $b = &$a;
+      $b +=5;
+      echo "A variavel A vale $a";
+      echo "<br/>A variavel B vale $b";
+      
+      ?>
+</div>
+</body>
+</html>
+ 

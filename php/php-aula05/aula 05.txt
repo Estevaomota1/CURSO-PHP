@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <title>OPERAÇOES ARITIMETICAS</title>
+</head>
+<body>
+    <?php
+   $n1 = $_GET["a"];
+   $n2 = $_GET["b"];
+   echo "<h2>Valores recebidos:$n1 e $n2<h2>";
+   $m = ($n1 + $n2) /2;
+
+   echo "a soma é igual a ". ($n1+$n2);
+   echo "<br/>a subtração é igual a ". ($n1-$n2);
+   echo "<br/>a multiplicação é igual a ". ($n1*$n2);
+   echo "<br/>a divisao é igual a ". ($n1/$n2);
+   echo "<br/>o modulo é igual a ". ($n1%$n2); 
+   echo "<br/>A media vale $m ";
+    ?>
+
+</body>
